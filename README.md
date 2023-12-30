@@ -1,6 +1,6 @@
-NAME: KAVIYA D
+##NAME: KAVIYA D
 
-REFERNCE NUMBER: 212223040089
+##REFERNCE NUMBER: 212223040089
 # Experiment--02-Implementation-of-combinational-logic
 Implementation of combinational logic gates
  
