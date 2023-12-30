@@ -1,3 +1,5 @@
+NAME: KAVIYA D
+REFERNCE NUMBER: 212223040089
 # Experiment--02-Implementation-of-combinational-logic
 Implementation of combinational logic gates
  
@@ -41,8 +43,11 @@ endmodule
 ## RTL realization
 ![image](https://github.com/KAVIYADHARANI/Experiment--02-Implementation-of-combinational-logic-/assets/144870680/f3ec0fa4-7ed8-48b6-a5a7-4ee79a45de62)
 
-## Output:
-## RTL
+## TRUTH TABLE
+![image](https://github.com/KAVIYADHARANI/Experiment--02-Implementation-of-combinational-logic-/assets/144870680/240aa178-11b4-4166-8be1-e2b73120b438)
+
 ## Timing Diagram
+![image](https://github.com/KAVIYADHARANI/Experiment--02-Implementation-of-combinational-logic-/assets/144870680/3e4c3df0-22a8-4093-bd22-eaf0aa422b13)
+
 ## Result:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
