@@ -1,6 +1,5 @@
-NAME: KAVIYA D
-
-REFERNCE NUMBER: 212223040089
+# NAME: KAVIYA D
+# REFERNCE NUMBER: 212223040089
 # Experiment--02-Implementation-of-combinational-logic
 Implementation of combinational logic gates
  
@@ -15,11 +14,9 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 ## Hardware – PCs, Cyclone II , USB flasher
 ## Software – Quartus prime
 
-
 ## Theory
  A combinational circuit is a circuit in which the output depends on the present combination of inputs. Combinational circuits are made up of logic gates. The output of each logic gate is determined by its logic function. Combinational circuits can be made using various logic gates, such as AND gates, OR gates, and NOT gates.
 
-## Logic Diagram
 ## Procedure
 1.	Create a New Project: Open Quartus and create a new project by selecting "File" > "New Project Wizard." Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
  
@@ -30,28 +27,19 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 6.	Verification: Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF". Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All. Give the Input Combinations according to the Truth Table amd then simulate the Output waveform
 
 ## Program:
+```
 module exp2de(A,B,C,D,F1);	                                         
-
 input A,B,C,D;
-
 output F1;
-
 wire x1,x2,x3,x4,x5;
-
 assign x1=(~A)&(~B)&(~C)&(~D);
-
 assign x2=(A)&(~C)&(~D);
-
 assign x3=(~B)&(C)&(~D);
-
 assign x4=(~A)&(B)&(C)&(D);
-
 assign x5=(B)&(~C)&(D); 
-
 assign F1=x1|x2|x3|x4|x5; 
-
 endmodule
-
+```
 ## RTL realization
 ![image](https://github.com/KAVIYADHARANI/Experiment--02-Implementation-of-combinational-logic-/assets/144870680/f3ec0fa4-7ed8-48b6-a5a7-4ee79a45de62)
 
